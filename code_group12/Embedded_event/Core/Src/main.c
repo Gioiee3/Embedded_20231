@@ -79,7 +79,7 @@ uint32_t nhietdo;
 //uint8_t* buff_temp[20];
 char temp_char[6];
 
-uint32_t period = 3000;
+uint32_t period = 1000;
 uint16_t temp_limit = 20;
 uint8_t period_char[5], temp_limit_char[2] = "20";
 
