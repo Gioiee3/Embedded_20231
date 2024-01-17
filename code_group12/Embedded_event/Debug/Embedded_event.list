@@ -2117,7 +2117,7 @@ void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
  800146c:	080068f8 	.word	0x080068f8
 
 08001470 <HAL_GPIO_EXTI_Callback>:
-//Button thay doi chu ki
+//Button thay doi trang thai man hinh LCD & OLED
 void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
 {
  8001470:	b580      	push	{r7, lr}

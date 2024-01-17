@@ -243,7 +243,7 @@ void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
 
 	HAL_UART_Receive_IT(&huart1, buffer, 8);
 }
-//Button thay doi chu ki
+//Button thay doi trang thai man hinh LCD & OLED
 void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
 {
 	currentMillis = HAL_GetTick();
